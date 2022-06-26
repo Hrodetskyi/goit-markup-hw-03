@@ -157,6 +157,8 @@ h1, h2, h3, h4, h5, h6, p {
 .button {
     display: inline-block;
     margin-top: 30px;
+    width: 200px;
+    height: 50px;
 
     color: var(--secondary-text-color);
     background-color: var(--interactive-color);
@@ -249,7 +251,8 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.photo {
+.name-block {
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -264,8 +267,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .text-descridtion {
-    padding-bottom: 30px;
-
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -329,6 +330,11 @@ footer {
 
 
 .portfolio-filter {
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    
     color: var(--primary-headlines-color);
     font-weight: 500;
     font-size: 16px;
